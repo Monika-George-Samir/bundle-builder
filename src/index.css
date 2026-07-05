@@ -1,0 +1,20 @@
+@import '@fontsource-variable/inter/wght.css';
+@import "tailwindcss";
+
+
+@theme {
+    --font-main : 'Inter Variable', sans-serif;
+}
+
+
+@layer base {
+    body{
+        @apply font-main;
+    }
+}
+
+/* @layer utilities {
+    .container {
+        @apply px-5 py-7.75 mx-auto lg:px-30.5 lg:pt-[49.36px] lg:pb-[49.64px] xl:pb-16 xl:pr-26.25
+    }
+} */
